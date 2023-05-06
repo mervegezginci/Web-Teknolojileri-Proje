@@ -1,6 +1,6 @@
 # 2022-2023 WEB TEKNOLOJİLERİ DERSİ PROJE ÖDEVİ
 
-#Merve Gezginci
+# Merve Gezginci
 
 ## Proje Amacı
 - Yaşadığım şehri ve kendimi tanıtan bir web site geliştirmek. 
