@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: rgb(21, 50, 138);
+
+}
+#navbar {
+  opacity: 0.8;
+  border-bottom: 1px solid rrgb(21, 50, 138);
+}
+#nav a{
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 25px;
+  display: inline-block;
+}
+#nav a:hover{
+  background-color: rgb(21, 50, 138);
+}
+
+.loginform{
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  background: url(../images/arkaplan.jpeg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+}
+
+.loginform h1{
+  margin-top: 100px;
+  color: #fff;
+  font-size: 50px;
+}
+
+.loginform input{
+  display: block;
+  width: 100%;
+  padding: 0 16px;
+  height: 44px;
+  text-align: center;
+  box-sizing: border-box;
+  border: none;
+}
+
+.txt{
+  margin: 20px 0;
+  border-radius: 6px;
+}
+
+.btn{
+  margin-top: 60px;
+  margin-bottom: 20px;
+  background: #538fef;
+  color: #fff;
+  border-radius: 44px;
+  cursor: pointer;
+  transition: 0.8px;
+  display: block;
+}
+
+.btn:hover{
+  transform: scale(0.96);
+  background: #fff;
+  color: #538fef;
+} 
+
+.footer{
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #808080;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+}
