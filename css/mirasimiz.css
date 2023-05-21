@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: rgba(165, 149, 149, 0.894);
+}
+#navbar {
+  opacity: 0.8;
+  border-bottom: 1px solid rgba(165, 149, 149, 0.894);
+}
+#nav a{
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 25px;
+  display: inline-block;
+}
+#nav a:hover{
+  background-color: rgba(165, 149, 149, 0.894);
+}
+
+.kultur{
+  color: #fff;
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+}
+.kultur-alt{
+  flex-basis: auto;
+  padding: 25px 200px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: all .5s ease-in-out;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+.kultur-baslik{
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.foto{
+  text-align: center;
+}
+.kultur-alt h2{
+  text-align: center;
+}
+.footer{
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #808080;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+}

@@ -1,12 +1,13 @@
 body{
   margin: 0;
   padding: 0;
-  background: #e9e9f1;
+  background: #9c9cc1;
   box-sizing: border-box;
+
 }
 #navbar {
   opacity: 0.8;
-  border-bottom: 1px solid royalblue;
+  border-bottom: 1px solid #9c9cc1;
 }
 #nav a{
   color: #fff;
@@ -15,12 +16,12 @@ body{
   display: inline-block;
 }
 #nav a:hover{
-  color: royalblue;
+  background-color: #9c9cc1;
 }
 
 #contact{
   margin-top: 300px;
-  background-color: #e9e9f1;
+  background-color: #9c9cc1;
   text-align: left;
   padding: 10px 0;
   max-width: 400px;
