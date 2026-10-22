@@ -66,24 +66,3 @@ Sakarya Üniversitesi Bilgisayar Mühendisliği Bölümü **Web Teknolojileri** 
 | **İstemci Betikleri** | JavaScript (ES6) | DOM manipülasyonu ve form girdi doğrulamaları |
 | **Sunucu Tarafı** | PHP | Form verisi işleme ve oturum kontrolü |
 
----
-
-## 🚀 Projeyi Çalıştırma
-
-Projeyi bilgisayarınızda iki farklı şekilde görüntüleyebilirsiniz:
-
-### 1. Yöntem: Doğrudan Tarayıcıda Açma (Statik Sayfalar)
-`hakkimda.html` veya `sehrim.html` dosyasına çift tıklayarak doğrudan tarayıcınızda açabilirsiniz.
-
-### 2. Yöntem: PHP Sunucusu ile Çalıştırma (Login ve Form Akışları İçin)
-PHP kurulu bir terminalde proje ana dizinindeyken:
-```bash
-php -S localhost:8000
-```
-Tarayıcınızdan `http://localhost:8000/hakkimda.html` adresine giderek PHP form akışlarını da deneyimleyebilirsiniz.
-
----
-
-## 👩‍💻 Geliştirici
-
-- **Merve Gezginci** - [GitHub Profili](https://github.com/mervegezginci)
