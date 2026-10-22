@@ -8,31 +8,52 @@ Sakarya Üniversitesi Bilgisayar Mühendisliği Bölümü **Web Teknolojileri** 
 
 ## 📸 Ekran Görüntüleri
 
-<!-- Proje ekran görüntüleri eklendiğinde burada görüntülenecektir -->
+### 🌆 Şehrim (Dinamik Resim Slider)
 <p align="center">
-  <img src="screenshots/sehrim.png" alt="Şehrim Sayfası & Slider" width="750" onerror="this.style.display='none'" />
+  <img src="screenshots/sehrim.png" alt="Şehrim Sayfası & Slider" width="850" />
 </p>
+
+<br/>
+
+### 🏠 Hakkımda & Kişisel Sayfa
 <p align="center">
-  <img src="screenshots/iletisim.png" alt="İletişim & Doğrulama Formu" width="750" onerror="this.style.display='none'" />
+  <img src="screenshots/hakkimda.png" alt="Hakkımda Sayfası" width="850" />
+</p>
+
+<br/>
+
+### 📄 Özgeçmiş (CV) & 📬 İletişim Formu
+<p align="center">
+  <img src="screenshots/ozgecmis.png" alt="Özgeçmiş Sayfası" width="420" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/iletisim.png" alt="İletişim Formu" width="420" />
+</p>
+
+<br/>
+
+### 🔐 Giriş / Login (PHP Doğrulama)
+<p align="center">
+  <img src="screenshots/login.png" alt="Login Sayfası" width="500" />
 </p>
 
 ---
 
 ## ✨ Proje Modülleri ve Özellikleri
 
-- **🏠 Hakkımda & İlgi Alanlarım:** Kişisel tanıtım, hobiler ve sosyal medya bağlantıları.
-- **📄 Özgeçmiş (CV):** Eğitim geçmişi, teknik yetenekler ve sertifikaların listelendiği responsive kart tasarımı.
 - **🌆 Şehrim (Şehir Rehberi):**
-  - Tarihi ve turistik mekanları tanıtan en az 4 resimli dinamik slider (atlıkarınca) yapısı.
+  - Tarihi ve turistik mekanları tanıtan dinamik slider (atlıkarınca) yapısı.
   - İlgili mekanlara ve detaylı bilgilere yönlendiren interaktif bağlantılar.
-- **🏛️ Mirasımız:** Kültürel ve tarihi mirasa ait eserlerin detaylı incelemesi.
+- **🏠 Hakkımda & İlgi Alanlarım:** 
+  - Kişisel tanıtım metni, hobiler ve sosyal medya bağlantıları.
+- **📄 Özgeçmiş (CV):** 
+  - Eğitim geçmişi, teknik yetenekler ve sertifikaların listelendiği responsive kart tasarımı.
 - **📬 İletişim Formu (JavaScript Doğrulaması):**
-  - İsim, e-posta, konu ve mesaj alanları.
+  - İsim, e-posta, cinsiyet, ilgi alanları ve mesaj alanları.
   - İstemci tarafında (`iletisim.js`) çalışan regex ve boşluk kontrolleri ile form validasyonu.
-  - Hatalı veya eksik girişlerde kullanıcıyı uyaran dinamik bildirimler.
+  - Hatalı veya eksik girişlerde kullanıcıyı bilgilendiren dinamik bildirimler.
 - **🔐 Giriş / Login (PHP Kimlik Doğrulama):**
   - Kullanıcı e-posta ve şifre kontrolü (`login.php`).
-  - Doğru girişte karşılama mesajı, hatalı girişte 2 saniye sonra otomatik yönlendirme.
+  - Başarılı girişte onay mesajı, hatalı girişte 2 saniye sonra otomatik geri yönlendirme.
 
 ---
 
@@ -41,7 +62,7 @@ Sakarya Üniversitesi Bilgisayar Mühendisliği Bölümü **Web Teknolojileri** 
 | Alan | Teknoloji | Açıklama |
 |---|---|---|
 | **İşaretleme & Yapı** | HTML5 | Semantik web elementleri |
-| **Biçimlendirme** | CSS3 & Bootstrap | Responsive (mobil uyumlu) ızgara (grid) sistemi ve özel stiller |
+| **Biçimlendirme** | CSS3 & Bootstrap | Responsive (mobil uyumlu) ızgara sistemi ve özel stiller |
 | **İstemci Betikleri** | JavaScript (ES6) | DOM manipülasyonu ve form girdi doğrulamaları |
 | **Sunucu Tarafı** | PHP | Form verisi işleme ve oturum kontrolü |
 
@@ -52,14 +73,14 @@ Sakarya Üniversitesi Bilgisayar Mühendisliği Bölümü **Web Teknolojileri** 
 Projeyi bilgisayarınızda iki farklı şekilde görüntüleyebilirsiniz:
 
 ### 1. Yöntem: Doğrudan Tarayıcıda Açma (Statik Sayfalar)
-`hakkimda.html` veya `sehrim.html` dosyasına çift tıklayarak doğrudan Chrome, Edge veya Firefox üzerinde görüntüleyebilirsiniz.
+`hakkimda.html` veya `sehrim.html` dosyasına çift tıklayarak doğrudan tarayıcınızda açabilirsiniz.
 
 ### 2. Yöntem: PHP Sunucusu ile Çalıştırma (Login ve Form Akışları İçin)
 PHP kurulu bir terminalde proje ana dizinindeyken:
 ```bash
 php -S localhost:8000
 ```
-Tarayıcınızdan `http://localhost:8000/hakkimda.html` adresine giderek PHP form akışlarını da tam işlevsel olarak deneyimleyebilirsiniz.
+Tarayıcınızdan `http://localhost:8000/hakkimda.html` adresine giderek PHP form akışlarını da deneyimleyebilirsiniz.
 
 ---
 
